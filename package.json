@@ -1,13 +1,13 @@
 {
-  "name": "blog",
+  "name": "blog-kemiao",
   "version": "3.0.0",
   "author": {
-    "url": "https://github.com/kuizuo",
-    "email": "hi@kuizuo.cn",
-    "name": "愧怍"
+    "url": "https://github.com/Kemeow815",
+    "email": "kemiaofx@163.com",
+    "name": "克喵爱吃卤面"
   },
   "repository": {
-    "url": "https://github.com/kuizuo/blog",
+    "url": "https://github.com/Kemeow815/blog-kemiao",
     "type": "git"
   },
   "homepage": "https://kuizuo.cn",

@@ -15,11 +15,11 @@ const FEATURES: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.feature.developer',
-      message: 'TypeScript 全栈工程师',
+      message: '在校大二学生',
     }),
     description: (
       <Translate>
-        作为一名 TypeScript 全栈工程师，秉着能用 TS 绝不用 JS 的原则，为项目提供类型安全的保障，提高代码质量和开发效率。
+        一个普普通通的大二学生，自动化专业，分享我所发现(并非创造)的资源，侵犯了您的权益的话，请联系我删除，希望未来更好吧！
       </Translate>
     ),
     header: <WebDeveloperSvg className="h-auto w-full" height={150} role="img" />,
@@ -28,11 +28,11 @@ const FEATURES: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.feature.spider',
-      message: '会点逆向 & 爬虫',
+      message: '会点编程 & 自动化',
     }),
     description: (
       <Translate>
-        作为一名曾学习与实践逆向工程两年半的开发者，对于逆向工程有着浓厚的兴趣，同时造就了超凡的阅读代码能力。没有看不懂的代码，只有不想看的代码。
+        专业自动化，不学点怎么办？业余在搞博客时学历点编程，纯纯菜鸟，不能帮上忙请见谅。
       </Translate>
     ),
     header: <SpiderSvg className="h-auto w-full" height={150} role="img" />,
@@ -44,7 +44,7 @@ const FEATURES: FeatureItem[] = [
     }),
     description: (
       <Translate>
-        作为一名开源爱好者，积极参与开源社区，为开源项目贡献代码，希望有生之年能够构建出一个知名的开源项目。
+        作为一名开源爱好者，积极参与开源社区，不断探索开源项目，希望有生之年能够构建出一个知名的开源项目。
       </Translate>
     ),
     header: <OpenSourceSvg className="h-auto w-full" height={150} role="img" />,

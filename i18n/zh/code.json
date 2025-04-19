@@ -12,12 +12,12 @@
     "message": "Hello! 我是",
     "description": "hero greet"
   },
-  "愧怍": {
-    "message": "愧怍",
+  "克喵爱吃卤面": {
+    "message": "克喵爱吃卤面",
     "description": "my name"
   },
   "homepage.hero.text": {
-    "message": "在这里我会分享各类技术栈所遇到问题与解决方案，带你了解最新的技术栈以及实际开发中如何应用，并希望我的开发经历对你有所启发。",
+    "message": "在这里我会分享我觉得好用的资源，包括开源项目、网站、软件等等，这里还会分享我的生活日常和踩坑教程。",
     "description": "hero text"
   },
   "homepage.hero.look": {

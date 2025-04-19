@@ -8,6 +8,7 @@ export type Social = {
   zhihu?: string
   email?: string
   discord?: string
+  telegram?: string
 }
 
 type SocialValue = {
@@ -18,15 +19,16 @@ type SocialValue = {
 }
 
 const social: Social = {
-  github: 'https://github.com/kuizuo',
-  x: 'https://twitter.com/kuizuo',
-  juejin: 'https://juejin.cn/user/1565318510545901',
-  wx: 'https://img.kuizuo.cn/wechat.png',
+  github: 'https://github.com/Kemeow815',
+  x: 'https://twitter.com/kiaosw',
+  // juejin: 'https://juejin.cn/user/1565318510545901',
+  // wx: 'https://img.kuizuo.cn/wechat.png',
   // qq: 'https://img.kuizuo.cn/qq.png',
   // zhihu: 'https://www.zhihu.com/people/kuizuo',
-  cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
-  email: 'mailto:hi@kuizuo.cn',
-  discord: 'https://discord.gg/M8cVcjDxkz',
+  cloudmusic: 'https://music.163.com/#/user/home?id=1725716511',
+  email: 'mailto:kemiaofx@163.com',
+  telegram: 'https://t.me/KemiaoJun',
+  // discord: 'https://discord.gg/M8cVcjDxkz',
 }
 
 const socialSet: Record<keyof Social | 'rss', SocialValue> = {
@@ -65,6 +67,12 @@ const socialSet: Record<keyof Social | 'rss', SocialValue> = {
     title: 'Discord',
     icon: 'ri:discord-line',
     color: '#5A65F6',
+  },
+  telegram: {
+    href: social.telegram,
+    title: 'Telegram',
+    icon: 'ri:telegram-line',
+    color: '#0088CC',
   },
   qq: {
     href: social.qq,

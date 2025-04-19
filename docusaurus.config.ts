@@ -4,20 +4,20 @@ import { themes } from 'prism-react-renderer'
 import social from './data/social'
 import type { GiscusConfig } from './src/components/Comment'
 
-const beian = '闽ICP备2020017848号-3'
-const beian1 = '闽公网安备35021102000847号'
+const beian = ''
+const beian1 = ''
 
 const config: Config = {
-  title: '愧怍',
-  url: 'https://kuizuo.cn',
+  title: '喵落阁',
+  url: 'https://blog.kemiaofx.cn',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: '塔罗会',
   projectName: 'blog',
   customFields: {
-    bio: '道阻且长，行则将至',
+    bio: '总有些事情高于其他！',
     description:
-      '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
+      '克喵的个人博客，平时分享资源、生活和踩坑教程。',
   },
   themeConfig: {
     // announcementBar: {
@@ -28,15 +28,15 @@ const config: Config = {
     metadata: [
       {
         name: 'author',
-        content: '愧怍',
+        content: '克喵爱吃卤面',
       },
       {
         name: 'keywords',
-        content: 'blog, javascript, typescript, node, react, vue, web',
+        content: 'blog, 克喵爱吃卤面, 资源分享, KeMiao, 博客, 开源, web',
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向, 主攻ts全栈',
+        content: '大学生, 资源分享者, 自动化技术与应用, 普通人',
       },
     ],
     docs: {
@@ -46,7 +46,7 @@ const config: Config = {
     },
     navbar: {
       logo: {
-        alt: '愧怍',
+        alt: '克喵爱吃卤面',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
@@ -61,7 +61,7 @@ const config: Config = {
           position: 'right',
           items: [
             { label: '归档', to: 'blog/archive' },
-            { label: '主题魔改', to: 'docs/docusaurus-guides' },
+            // { label: '主题魔改', to: 'docs/docusaurus-guides' },
           ],
         },
         // {
@@ -79,7 +79,7 @@ const config: Config = {
             { label: '博客', to: 'blog' },
             { label: '归档', to: 'blog/archive' },
             { label: '实战项目', to: 'project' },
-            { label: '前端示例', to: 'https://example.kuizuo.cn' },
+            // { label: '前端示例', to: 'https://example.kuizuo.cn' },
           ],
         },
         {
@@ -88,18 +88,18 @@ const config: Config = {
             { label: '关于我', to: '/about' },
             { label: 'GitHub', href: social.github.href },
             { label: 'Twitter', href: social.x.href },
-            { label: '掘金', href: social.juejin.href },
-            { label: 'Discord', href: social.discord.href },
+            { label: 'Telegram', href: social.telegram.href },
+            { label: 'Mail', href: social.email.href },
           ],
         },
         {
           title: '网站',
           items: [
-            { label: 'js反混淆', to: 'https://js-deobfuscator.kuizuo.cn' },
-            { label: 'cyberChef', to: 'https://gchq.github.io/CyberChef' },
-            { label: 'api服务', to: 'https://api.kuizuo.cn' },
-            { label: '便民服务', to: 'https://service.kuizuo.cn' },
-            { label: '站点监控', to: 'https://uptime.kuizuo.cn' },
+            { label: '音乐馆', to: 'https://music.kemiao.online' },
+            { label: '影视页', to: 'https://tv.kemeow.top' },
+            { label: '每日热点', to: 'https://dailyhot.kemeow.cn' },
+            { label: '每日说说', to: 'https://shuoshuo.kemiao.online' },
+            { label: '站点监控', to: 'https://montor.kemeow.cn' },
           ],
         },
         {
@@ -121,7 +121,7 @@ const config: Config = {
         <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${
           beian1.match(/\d+/)?.[0]
         }" >${beian1}</a></p>
-        <p>Copyright © 2020 - ${new Date().getFullYear()} kuizuo. | Built with Docusaurus.</p>
+        <p>Copyright © 2025 - ${new Date().getFullYear()} 克喵爱吃卤面. | Built with Docusaurus.</p>
         `,
     },
     algolia: {
@@ -218,8 +218,8 @@ const config: Config = {
       {
         path: 'blog',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
-        editLocalizedFiles: false,
+          `https://github.com/Kemeow815/blog-kemiao/edit/main/${blogDirPath}/${blogPath}`,
+        editLocalizedFiles: true,
         blogDescription: '代码人生：编织技术与生活的博客之旅',
         blogSidebarCount: 10,
         blogSidebarTitle: '博文',
@@ -229,9 +229,9 @@ const config: Config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
+          title: '克喵爱吃卤面',
           description: 'feedId:41215011978385457+userId:41840354283324416',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          copyright: `Copyright © ${new Date().getFullYear()} 愧克喵爱吃卤面 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
         },
       },
     ],
@@ -257,7 +257,7 @@ const config: Config = {
                 innerHTML: `
     (${function () {
       console.log(
-        `%c Kz Blog %c https://github.com/kuizuo/blog`,
+        `%c Kz Blog %c https://github.com/Kemeow815/blog-kemiao`,
         'color: #fff; margin: 1em 0; padding: 5px 0; background: #12affa;',
         'margin: 1em 0; padding: 5px 0; background: #efefef;',
       )
@@ -285,7 +285,7 @@ Love what you do and do what you love.
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '愧怍的个人博客',
+        content: '喵落阁',
       },
     },
   ],
