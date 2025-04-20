@@ -13,8 +13,8 @@ const DESCRIPTION = '有很多良友，胜于有很多财富。'
 const ADD_FRIEND_URL = 'https://github.com/Kemeow815/blog-kemiao/edit/main/data/friends.tsx'
 const SITE_INFO = `title: '喵落阁'
 description: '总有些事情高于其他！'
-website: 'https://blog-kemiaofx.cn'
-avatar: 'https://s2.loli.net/2025/04/18/XqnD4FQzWJcfIa5.jpg'
+website: 'https://blog.kemiao.online'
+avatar: 'https://s2.loli.net/2025/04/20/V8zWaEoxP5msqNQ.jpg'
 `
 const friends = Friends
 
