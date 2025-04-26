@@ -1,95 +1,113 @@
 export const projects: Project[] = [
   {
-    title: '愧怍的小站',
-    description: '🦖 基于 Docusaurus 静态网站生成器实现个人博客',
-    preview: '/img/project/blog.png',
-    website: 'https://kuizuo.me',
-    source: 'https://github.com/kuizuo/blog',
+    title: '克喵的小站',
+    description: '🦖 基于 Docusaurus 静态网站生成器实现个人博客，源码来自愧怍',
+    preview: 'https://s2.loli.net/2025/04/26/g8bXR5eLp2qolTM.png',
+    website: 'https://myblog.kemiao.online',
+    source: 'https://github.com/Kemeow815/blog-kemiao',
     tags: ['opensource', 'design', 'favorite'],
     type: 'web',
   },
   {
-    title: 'JS代码反混淆',
-    description: '基于 Babel 对 JavaScript 混淆代码还原的工具',
-    preview: '/img/project/js-deobfuscator.png',
-    website: 'https://js-deobfuscator.vercel.app',
-    source: 'https://github.com/kuizuo/js-deobfuscator',
-    tags: ['opensource', 'favorite'],
+    title: '克喵的主页',
+    description: '基于 nuxt 的个人主页',
+    preview: 'https://s2.loli.net/2025/04/26/ZQV8k1qnpuKzdEf.png',
+    website: 'https://www.kemiao.online',
+    source: 'https://github.com/Kemeow815/blog-homepage-v5',
+    tags: ['opensource', 'favorite', 'homepage'],
     type: 'web',
   },
   {
-    title: 'Youni（校园社交平台）',
-    description: '基于 React Native + NestJs 实现的一个校园社交平台应用',
-    preview: '/img/project/youni.png',
-    website: 'https://youni.vercel.app',
-    source: 'https://github.com/kuizuo/youni',
-    tags: ['large', 'product'],
+    title: '克喵的memos说说',
+    description: '基于 memos 的说说页面',
+    preview: 'https://s2.loli.net/2025/04/26/8EyIfRdGJ3H4naq.png',
+    website: 'https://memos.kemiao.online',
+    source: 'https://github.com/Kemeow815/memos_kemiao',
+    tags: ['opensource', 'product', 'speak'],
     type: 'web',
   },
   {
-    title: 'nest-vben-admin',
-    description: ' NestJs + Vben Admin 编写的一款前后端分离的权限管理系统',
-    preview: '/img/project/nest-vben-admin.png',
-    website: 'https://admin.kuizuo.me',
-    source: 'https://github.com/kuizuo/nest-vben-admin',
-    tags: ['opensource', 'favorite', 'product', 'large'],
+    title: '克喵的TG说说',
+    description: ' 基于Tg频道的说说页面',
+    preview: 'https://s2.loli.net/2025/04/26/M293zqpNDue8Ri6.png',
+    website: 'https://shuoshuo.kemiao.online',
+    source: 'https://github.com/Kemeow815/BroadcastChannel',
+    tags: ['opensource', 'product', 'speak'],
     type: 'web',
   },
   {
-    title: 'api-server',
-    description: '🔗 基于 Nuxt 搭建的 API 接口服务网站',
-    preview: '/img/project/kz-api.png',
-    website: 'https://api.kuizuo.me',
-    source: 'https://github.com/kuizuo/api-service',
-    tags: ['opensource', 'favorite', 'product'],
+    title: '克喵的音乐页',
+    description: '基于HeoMusic 修改的音乐页面',
+    preview: 'https://s2.loli.net/2025/04/19/6XSvVAWnB2fYUEu.png',
+    website: 'https://music.kemiao.online',
+    source: 'https://github.com/Kemeow815/HeoMusic',
+    tags: ['opensource', 'favorite', 'music'],
+    type: 'web',
+  },
+  {
+    title: '克喵的网站监测',
+    description: '优雅的站点状态监控面板',
+    preview: 'https://s2.loli.net/2025/04/19/IxfAzWvDhQrCRwe.png',
+    website: 'https://montor.kemiaofx.cn',
+    source: 'https://github.com/Kemeow815/Uptime-Status-kemiao',
+    tags: ['opensource', 'favorite', 'status'],
+    type: 'web',
+  },
+  {
+    title: '克喵的每日热榜',
+    description: 'DailyHot 今日热榜前端页面',
+    preview: 'https://s2.loli.net/2025/04/19/KqLPd1UuxBkzaQS.png',
+    website: 'https://dailyhot.kemeow.cn',
+    source: 'https://github.com/Kemeow815/DailyHot-kemiao',
+    tags: ['opensource', 'favorite', 'news'],
     type: 'web',
   },
   // toy
-  {
-    title: 'chaoxing-sign',
-    description: '🌟 超星学习通在线签到，摆脱客户端繁琐的签到流程，让签到不再是你的烦恼',
-    preview: '/img/project/chaoxing-sign.png',
-    website: 'https://cx.kuizuo.me',
-    source: 'https://github.com/kuizuo/chaoxing-sign',
-    tags: ['opensource', 'favorite'],
-    type: 'toy',
-  },
-  {
-    title: '便民服务',
-    description: '🌱 一个便民服务的网站',
-    preview: '/img/project/service.png',
-    website: 'https://service.kuizuo.me',
-    source: 'https://github.com/kuizuo/service',
-    tags: ['opensource', 'personal'],
-    type: 'toy',
-  },
-  {
-    title: 'Hoppx',
-    description: '👽 仿 Hoppscotch 风格的网站模板',
-    preview: '/img/project/hoppx.png',
-    website: 'https://hoppx.vercel.app',
-    source: 'https://github.com/kuizuo/hoppx',
-    tags: ['opensource'],
-    type: 'toy',
-  },
-  {
-    title: 'Link Maker',
-    description: '🍋 一个用于将链接转换为卡片样式的预览网站',
-    preview: '/img/project/link-maker.png',
-    website: 'https://link-maker.deno.dev',
-    source: 'https://github.com/kuizuo/link-maker',
-    tags: ['opensource'],
-    type: 'toy',
-  },
-  {
-    title: 'Nuxt-Naive-Admin',
-    description: '🎁 一站式管理系统，融合 Nuxt、Naive UI 和 Supabase',
-    preview: '/img/project/nuxt-naive-admin.png',
-    website: 'https://nuxt-naive-admin.vercel.app',
-    source: 'https://github.com/kuizuo/nuxt-naive-admin',
-    tags: ['opensource'],
-    type: 'toy',
-  },
+  // {
+  //   title: 'chaoxing-sign',
+  //   description: '🌟 超星学习通在线签到，摆脱客户端繁琐的签到流程，让签到不再是你的烦恼',
+  //   preview: '/img/project/chaoxing-sign.png',
+  //   website: 'https://cx.kuizuo.me',
+  //   source: 'https://github.com/kuizuo/chaoxing-sign',
+  //   tags: ['opensource', 'favorite'],
+  //   type: 'toy',
+  // },
+  // {
+  //   title: '便民服务',
+  //   description: '🌱 一个便民服务的网站',
+  //   preview: '/img/project/service.png',
+  //   website: 'https://service.kuizuo.me',
+  //   source: 'https://github.com/kuizuo/service',
+  //   tags: ['opensource', 'personal'],
+  //   type: 'toy',
+  // },
+  // {
+  //   title: 'Hoppx',
+  //   description: '👽 仿 Hoppscotch 风格的网站模板',
+  //   preview: '/img/project/hoppx.png',
+  //   website: 'https://hoppx.vercel.app',
+  //   source: 'https://github.com/kuizuo/hoppx',
+  //   tags: ['opensource'],
+  //   type: 'toy',
+  // },
+  // {
+  //   title: 'Link Maker',
+  //   description: '🍋 一个用于将链接转换为卡片样式的预览网站',
+  //   preview: '/img/project/link-maker.png',
+  //   website: 'https://link-maker.deno.dev',
+  //   source: 'https://github.com/kuizuo/link-maker',
+  //   tags: ['opensource'],
+  //   type: 'toy',
+  // },
+  // {
+  //   title: 'Nuxt-Naive-Admin',
+  //   description: '🎁 一站式管理系统，融合 Nuxt、Naive UI 和 Supabase',
+  //   preview: '/img/project/nuxt-naive-admin.png',
+  //   website: 'https://nuxt-naive-admin.vercel.app',
+  //   source: 'https://github.com/kuizuo/nuxt-naive-admin',
+  //   tags: ['opensource'],
+  //   type: 'toy',
+  // },
   // {
   //   title: 'Image Hosting',
   //   description: '🖼️ 使用 Supabase 搭建一个简易图床',
@@ -109,24 +127,24 @@ export const projects: Project[] = [
   //   type: 'web',
   // },
   // personal
-  {
-    title: 'vscode-extension',
-    description: '自写 vscode 插件，提供了光标移动快捷键',
-    preview: '/img/project/vscode-extension.png',
-    website: 'https://marketplace.visualstudio.com/items?itemName=kuizuo.vscode-extension-sample',
-    source: 'https://github.com/kuizuo/vscode-extension',
-    tags: ['opensource'],
-    type: 'personal',
-  },
-  {
-    title: '前端示例代码库',
-    description: '📦 整理前端样式和功能的实现代码，可以用来寻找灵感或直接使用示例中的代码',
-    preview: '/img/project/example-website.png',
-    website: 'https://example.kuizuo.me',
-    source: 'https://github.com/kuizuo/example',
-    tags: ['opensource', 'design'],
-    type: 'personal',
-  },
+  // {
+  //   title: 'vscode-extension',
+  //   description: '自写 vscode 插件，提供了光标移动快捷键',
+  //   preview: '/img/project/vscode-extension.png',
+  //   website: 'https://marketplace.visualstudio.com/items?itemName=kuizuo.vscode-extension-sample',
+  //   source: 'https://github.com/kuizuo/vscode-extension',
+  //   tags: ['opensource'],
+  //   type: 'personal',
+  // },
+  // {
+  //   title: '前端示例代码库',
+  //   description: '📦 整理前端样式和功能的实现代码，可以用来寻找灵感或直接使用示例中的代码',
+  //   preview: '/img/project/example-website.png',
+  //   website: 'https://example.kuizuo.me',
+  //   source: 'https://github.com/kuizuo/example',
+  //   tags: ['opensource', 'design'],
+  //   type: 'personal',
+  // },
   // {
   //   title: '@kuizuo/utils',
   //   description: '整理 JavaScript / TypeScript 的相关工具函数',
@@ -159,34 +177,34 @@ export const projects: Project[] = [
   //   type: 'commerce',
   // },
   // other
-  {
-    title: '@kuizuo/http',
-    description: '基于 Axios 封装的 HTTP 类库',
-    website: 'https://www.npmjs.com/package/@kuizuo/http',
-    tags: ['opensource', 'personal'],
-    type: 'other',
-  },
-  {
-    title: 'browser-rpc',
-    description: 'WebSocket 远程调用浏览器函数',
-    website: 'https://github.com/kuizuo/rpc-browser',
-    tags: ['opensource'],
-    type: 'other',
-  },
-  {
-    title: 'ocr-server',
-    description: '使用 nestjs 通过 grpc 与 python ddddocr 库搭建的验证码图像识别服务',
-    website: 'https://github.com/kuizuo/ocr',
-    tags: ['opensource'],
-    type: 'other',
-  },
-  {
-    title: 'rust-wasm-md5',
-    description: '🦀 Rust + WebAssembly 实现的 MD5 加密',
-    website: 'https://github.com/kuizuo/rust-wasm-md5',
-    tags: ['opensource'],
-    type: 'other',
-  },
+  // {
+  //   title: '@kuizuo/http',
+  //   description: '基于 Axios 封装的 HTTP 类库',
+  //   website: 'https://www.npmjs.com/package/@kuizuo/http',
+  //   tags: ['opensource', 'personal'],
+  //   type: 'other',
+  // },
+  // {
+  //   title: 'browser-rpc',
+  //   description: 'WebSocket 远程调用浏览器函数',
+  //   website: 'https://github.com/kuizuo/rpc-browser',
+  //   tags: ['opensource'],
+  //   type: 'other',
+  // },
+  // {
+  //   title: 'ocr-server',
+  //   description: '使用 nestjs 通过 grpc 与 python ddddocr 库搭建的验证码图像识别服务',
+  //   website: 'https://github.com/kuizuo/ocr',
+  //   tags: ['opensource'],
+  //   type: 'other',
+  // },
+  // {
+  //   title: 'rust-wasm-md5',
+  //   description: '🦀 Rust + WebAssembly 实现的 MD5 加密',
+  //   website: 'https://github.com/kuizuo/rust-wasm-md5',
+  //   tags: ['opensource'],
+  //   type: 'other',
+  // },
 ]
 
 export type Tag = {
@@ -195,17 +213,12 @@ export type Tag = {
   color: string
 }
 
-export type TagType = 'favorite' | 'opensource' | 'product' | 'design' | 'large' | 'personal'
-
-export type ProjectType = 'web' | 'app' | 'commerce' | 'personal' | 'toy' | 'other'
+export type TagType = 'favorite' | 'opensource' | 'product' | 'design' | 'large' | 'personal' | 'homepage' | 'music' | 'speak' | 'status' | 'tv' | 'news'
+ 
+export type ProjectType = 'web'
 
 export const projectTypeMap = {
   web: '🖥️ 网站',
-  app: '💫 应用',
-  commerce: '商业项目',
-  personal: '👨‍💻 个人',
-  toy: '🔫 玩具',
-  other: '🗃️ 其他',
 }
 
 export type Project = {
@@ -249,6 +262,36 @@ export const Tags: Record<TagType, Tag> = {
     description: '个人项目',
     color: '#12affa',
   },
+  homepage: {
+    label: "主页",
+    description: "个人主页",
+    color: "#5890ff"
+  },
+  music: {
+    label: "音乐",
+    description: "个人音乐页",
+    color: "#32d1f9"
+  },
+  speak: {
+    label: "说说",
+    description: "个人动态",
+    color: "#ff9c00"
+  },
+  status: {
+    label: "监测",
+    description: "网站状态监测",
+    color: "#1152fa"
+  },
+  tv: {
+    label: "播放器",
+    description: "影视播放器",
+    color: "#f25f00"
+  },
+  news: {
+    label: "news",
+    description: "每日热榜",
+    color: "#be54ff"
+  }
 }
 
 export const TagList = Object.keys(Tags) as TagType[]
