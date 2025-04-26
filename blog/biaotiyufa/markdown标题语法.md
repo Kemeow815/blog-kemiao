@@ -6,7 +6,7 @@ tags: [教程, 标题语法, markdown]
 slug: markdown-title-syntax
 keywords: [教程, 标题语法, markdown]
 image: https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/biaotiyufa.png
-author: 克喵爱吃卤面
+author: KeMiao
 ---
 
 > 原文位置: https://markdown.com.cn/basic-syntax/headings.html
