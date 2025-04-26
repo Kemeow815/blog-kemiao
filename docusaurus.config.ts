@@ -20,11 +20,6 @@ const config: Config = {
       '克喵的个人博客，平时分享资源、生活和踩坑教程。',
   },
   themeConfig: {
-    // announcementBar: {
-    //   id: 'announcementBar-3',
-    //   content: ``,
-    // },
-    image: 'img/og.png',
     metadata: [
       {
         name: 'author',
@@ -58,10 +53,6 @@ const config: Config = {
             { label: '归档', to: 'blog/archive' },,
           ],
         },
-        // {
-        //   type: 'localeDropdown',
-        //   position: 'right',
-        // },
       ],
     },
     footer: {
