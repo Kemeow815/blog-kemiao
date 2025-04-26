@@ -60,8 +60,7 @@ const config: Config = {
           label: '更多',
           position: 'right',
           items: [
-            { label: '归档', to: 'blog/archive' },
-            // { label: '主题魔改', to: 'docs/docusaurus-guides' },
+            { label: '归档', to: 'blog/archive' },,
           ],
         },
         // {
