@@ -263,7 +263,7 @@ const config: Config = {
       )
 
       const motto = `
-This Webisite Powered By Kz Blog.
+This Webisite Powered By KeMiao Blog.
 Written by Docusaurus, Coding with Love.
 --------
 Love what you do and do what you love.
