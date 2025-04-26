@@ -39,11 +39,6 @@ const config: Config = {
         content: '大学生, 资源分享者, 自动化技术与应用, 普通人',
       },
     ],
-    docs: {
-      sidebar: {
-        hideable: true,
-      },
-    },
     navbar: {
       logo: {
         alt: '克喵爱吃卤面',
@@ -170,10 +165,6 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
-          path: 'docs',
-          sidebarPath: 'sidebars.ts',
-        },
         blog: false,
         theme: {
           customCss: ['./src/css/custom.css', './src/css/tweet-theme.css'],
