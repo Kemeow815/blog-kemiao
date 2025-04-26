@@ -26,10 +26,10 @@ author: KeMiao
 ## 可选语法
 还可以在文本下方添加任意数量的 == 号来标识一级标题，或者 -- 号来标识二级标题。
 
-| Markdown语法                            | HTML                       | <div style="width:100px;">预览效果</div> |
+| Markdown语法                            | HTML                       | 预览效果 |
 | --------------------------------------- | -------------------------- | ---------------------------------------- |
-| `Heading level 1`<br>`===============` | <h1>Heading level 1</h1> | <h1>Heading level 1</h1>                 |
-| `Heading level 2`<br>`---------------`   | <h2>Heading level 2</h2> | <h2>Heading level 2</h2>                 |
+| `Heading level 1`<br />`===============` | <h1>Heading level 1</h1> | <h1>Heading level 1</h1>                 |
+| `Heading level 2`<br />`---------------`   | <h2>Heading level 2</h2> | <h2>Heading level 2</h2>                 |
 
 ## 最佳实践
 不同的 **Markdown** 应用程序处理 `#` 和标题之间的空格方式并不一致。为了兼容考虑，请用一个空格在 `#` 和标题之间进行分隔。
