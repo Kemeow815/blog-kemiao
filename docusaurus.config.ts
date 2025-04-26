@@ -43,7 +43,6 @@ const config: Config = {
       hideOnScroll: true,
       items: [
         { label: '博客', position: 'right', to: 'blog' },
-        { label: '项目', position: 'right', to: 'project' },
         { label: '友链', position: 'right', to: 'friends' },
         { label: '关于', position: 'right', to: 'about' },
         { label: '归档', position: 'right', to: 'blog/archive' },
@@ -78,6 +77,7 @@ const config: Config = {
             { label: '每日热点', to: 'https://dailyhot.kemeow.cn' },
             { label: '每日说说', to: 'https://shuoshuo.kemiao.online' },
             { label: '站点监控', to: 'https://montor.kemeow.cn' },
+
           ],
         },
         {
