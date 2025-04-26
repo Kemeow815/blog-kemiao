@@ -46,13 +46,7 @@ const config: Config = {
         { label: '项目', position: 'right', to: 'project' },
         { label: '友链', position: 'right', to: 'friends' },
         { label: '关于', position: 'right', to: 'about' },
-        {
-          label: '更多',
-          position: 'right',
-          items: [
-            { label: '归档', to: 'blog/archive' },,
-          ],
-        },
+        { label: '归档', position: 'right', to: 'blog/archive' },
       ],
     },
     footer: {
@@ -64,7 +58,6 @@ const config: Config = {
             { label: '博客', to: 'blog' },
             { label: '归档', to: 'blog/archive' },
             { label: '实战项目', to: 'project' },
-            // { label: '前端示例', to: 'https://example.kuizuo.cn' },
           ],
         },
         {
