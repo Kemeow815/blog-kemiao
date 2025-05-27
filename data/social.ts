@@ -20,13 +20,14 @@ type SocialValue = {
 
 const social: Social = {
   github: 'https://github.com/Kemeow815',
-  x: 'https://twitter.com/kiaosw',
+  x: 'https://twitter.com/kemiaosw',
   // juejin: 'https://juejin.cn/user/1565318510545901',
   // wx: 'https://img.kuizuo.cn/wechat.png',
   // qq: 'https://img.kuizuo.cn/qq.png',
   // zhihu: 'https://www.zhihu.com/people/kuizuo',
+  qq: 'https://qm.qq.com/q/m8FW8Y6TkY',
   cloudmusic: 'https://music.163.com/#/user/home?id=1725716511',
-  email: 'mailto:kemiaofx@163.com',
+  email: 'mailto:me@kemiaosw.top',
   telegram: 'https://t.me/KemiaoJun',
   // discord: 'https://discord.gg/M8cVcjDxkz',
 }

@@ -54,6 +54,12 @@ export const Friends: Friend[] = [
     avatar: '/img/friend/licodeao.png',
   },
   {
+    title: 'wallleap',
+    description: 'Luwang\'s blog',
+    website: 'https://myblog.wallleap.cn',
+    avatar: 'https://gravatar.wallleap.cn/avatar/be1ccdcf025a92b98a92e331e1b3662a?size=256',
+  },
+  {
     title: '云小逸',
     description: '不积跬步，无以至千里',
     website: 'https://www.gerenbiji.com',

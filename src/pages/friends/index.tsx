@@ -14,7 +14,7 @@ const ADD_FRIEND_URL = 'https://github.com/Kemeow815/blog-kemiao/edit/main/data/
 const SITE_INFO = `title: '喵落阁'
 description: '总有些事情高于其他！'
 website: 'https://blog.kemiao.online'
-avatar: 'https://s2.loli.net/2025/04/20/V8zWaEoxP5msqNQ.jpg'
+avatar: 'https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256'
 `
 const friends = Friends
 

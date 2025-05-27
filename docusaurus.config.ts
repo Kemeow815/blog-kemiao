@@ -37,8 +37,8 @@ const config: Config = {
     navbar: {
       logo: {
         alt: '克喵爱吃卤面',
-        src: 'img/logo.webp',
-        srcDark: 'img/logo.webp',
+        src: 'https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256',
+        srcDark: 'https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256',
       },
       hideOnScroll: true,
       items: [
@@ -96,10 +96,6 @@ const config: Config = {
         },
       ],
       copyright: `
-        <p style="margin-bottom: 0;"><a href="http://beian.miit.gov.cn/">${beian}</a></p>
-        <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${
-          beian1.match(/\d+/)?.[0]
-        }" >${beian1}</a></p>
         <p>Copyright © 2025 - ${new Date().getFullYear()} 克喵爱吃卤面. | Built with Docusaurus.</p>
         `,
     },
@@ -195,7 +191,7 @@ const config: Config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/Kemeow815/blog-kemiao/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: true,
-        blogDescription: '代码人生：编织技术与生活的博客之旅',
+        blogDescription: '记录着克喵的日常记录、生活日记和踩坑教程',
         blogSidebarCount: 10,
         blogSidebarTitle: '博文',
         postsPerPage: 12,
