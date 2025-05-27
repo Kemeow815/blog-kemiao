@@ -9,7 +9,7 @@ const beian1 = ''
 
 const config: Config = {
   title: '喵落阁',
-  url: 'https://blog.kemiao.online',
+  url: 'https://myblog.kemiao.online',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: '塔罗会',
