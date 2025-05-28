@@ -31,15 +31,12 @@ slug: waline-vercel
 
 ---
 ## 在 Vercel 部署
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwalinejs%2Fwaline%2Ftree%2Fmain%2Fexample)
+
+[![Vercel](https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwalinejs%2Fwaline%2Ftree%2Fmain%2Fexample)
 
 1. 点击上方按钮，跳转至 Vercel 进行 Server 端部署。
 
-   ::: note
-
    如果你未登录的话，Vercel 会让你注册或登录，请使用 GitHub 账户进行快捷登录。
-
-   :::
 
 1. 输入一个你喜欢的 Vercel 项目名称并点击 `Create` 继续:
 
@@ -79,12 +76,12 @@ slug: waline-vercel
    | ----- | ------- | ----------------------------------------------------------- |
    | CNAME | example | cname.vercel-dns.com(国区的可用 cname-china.vercel-dns.com) |
 
-1. 等待生效，你可以通过自己的域名来访问了:tada:
+1. 等待生效，你可以通过自己的域名来访问了。
 
    - 评论系统：example.yourdomain.com
    - 评论管理：example.yourdomain.com/ui
 
-![success](https://s2.loli.net/2025/04/14/4BOxqfs16erKTMV.png)
+   ![success](https://s2.loli.net/2025/04/14/4BOxqfs16erKTMV.png)
 
 ## HTML 引入 (客户端)
 
@@ -120,7 +117,7 @@ slug: waline-vercel
    </body>
    ```
 
-1. 评论服务此时就会在你的网站上成功运行 :tada:
+1. 评论服务此时就会在你的网站上成功运行。
 
 ## 评论管理 (管理端)
 
@@ -136,11 +133,17 @@ slug: waline-vercel
 
 > UP 主：[rickroll 摇](https://space.bilibili.com/381992209)
 
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=603711299&bvid=BV1pB4y1E7fp&cid=851182849&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ### 使用 Vercel 简单地部署 Waline 评论系统
 
 > UP 主：[岚天呀](https://space.bilibili.com/355877984)
 
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=986143204&bvid=BV1Ft4y1A73f&cid=851363812&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ---
 
 ## 以上为部分修改原文
-原文链接: https://waline.js.org/guide/get-started/
+原文链接: https://waline.js.org/guide/get-started
+
